@@ -9,4 +9,8 @@ sudo apt-fast update && sudo apt-fast upgrade -y
 
 sudo apt-fast install terminator openjdk-11-jdk curl htop lm-sensors nodejs npm -y
 
+sudo apt-fast install docker.io -y
+sudo systemctl enable --now docker
+sudo apt-fast  install docker-compose -y
+
 sudo npm install -g generator-jhipster
