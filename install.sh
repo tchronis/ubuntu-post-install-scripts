@@ -10,14 +10,24 @@ sudo apt-fast install git terminator openjdk-11-jdk curl htop lm-sensors -y
 
 sudo apt-fast install docker.io -y
 sudo systemctl enable --now docker
-sudo apt-fast  install docker-compose -y
+sudo systemctl enable docker.service
+sudo systemctl enable containerd.service
+
+sudo groupadd docker
+sudo usermod -aG docker $USER
+	
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+#sudo chown tc /usr/local/bin/docker-compose
 
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 
-#must run outside this script
-#source ~/.bashrc
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-#nvm install node
+nvm install node
 
-#npm install -g generator-jhipster
-#npm install -g yo
+npm install -g generator-jhipster
+npm install -g yo
