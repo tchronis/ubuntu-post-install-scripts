@@ -7,11 +7,15 @@ sudo apt-get install apt-fast -y
 
 sudo apt-fast update && sudo apt-fast upgrade -y
 
-sudo apt-fast install terminator openjdk-11-jdk curl htop lm-sensors nodejs npm -y
+sudo apt-fast install terminator openjdk-11-jdk curl htop lm-sensors -y
 
 sudo apt-fast install docker.io -y
 sudo systemctl enable --now docker
 sudo apt-fast  install docker-compose -y
 
-sudo npm install -g generator-jhipster
-sudo npm install -g yo
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+source ~/.bashrc
+nvm install node
+
+#sudo npm install -g generator-jhipster
+#sudo npm install -g yo
