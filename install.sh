@@ -14,3 +14,4 @@ sudo systemctl enable --now docker
 sudo apt-fast  install docker-compose -y
 
 sudo npm install -g generator-jhipster
+sudo npm install -g yo
