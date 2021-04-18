@@ -1,3 +1,4 @@
+apt-get install software-properties-common -y
 
 #Are you hearing about it for the first time? apt-get is the command you probably learnt how to use Ubuntu with.
 #If you would like your downloads to enjoy a better speed then install apt-fast and use it in the place of apt-get.
@@ -17,6 +18,7 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 	
 
+sudo rm -f /usr/local/bin/docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 #sudo chown tc /usr/local/bin/docker-compose
