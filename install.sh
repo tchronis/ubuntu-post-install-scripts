@@ -11,17 +11,17 @@ sudo apt-fast install git terminator openjdk-11-jdk curl htop lm-sensors -y
 
 sudo apt-fast install docker.io -y
 sudo systemctl enable --now docker
-sudo systemctl enable docker.service
-sudo systemctl enable containerd.service
+#sudo systemctl enable docker.service
+#sudo systemctl enable containerd.service
 
 sudo groupadd docker
 sudo usermod -aG docker $USER
-	
 
 sudo rm -f /usr/local/bin/docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 #sudo chown tc /usr/local/bin/docker-compose
+
 
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 
