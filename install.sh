@@ -5,3 +5,6 @@ sudo apt-get install curl -y
 sudo apt-get install htop -y
 sudo apt-get install lm-sensors -y
 sudo apt-get install nodejs -y
+sudo apt-get install npm -y
+
+npm install -g generator-jhipster
