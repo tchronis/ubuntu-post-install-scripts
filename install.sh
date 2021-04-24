@@ -7,7 +7,7 @@ sudo apt-get install apt-fast -y
 
 sudo apt-fast update && sudo apt-fast upgrade -y
 
-sudo apt-fast install git terminator openjdk-11-jdk curl htop lm-sensors -y
+sudo apt-fast install git terminator openjdk-11-jdk curl htop lm-sensors iproute2 inetutils-ping -y
 
 sudo apt-fast install docker.io -y
 sudo systemctl enable --now docker
@@ -20,7 +20,11 @@ sudo usermod -aG docker $USER
 sudo rm -f /usr/local/bin/docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
-#sudo chown tc /usr/local/bin/docker-compose
+
+#Watch for file changes in a large workspace (needed for VSCode to remote handle many files)
+sudo cat /proc/sys/fs/inotify/max_user_watches
+sudo echo "fs.inotify.max_user_watches=524288" >> /etc/sysctl.conf
+sudo sysctl -p
 
 
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
