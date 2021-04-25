@@ -1,0 +1,8 @@
+extensions:
+
+Thunder Client: RestAPI Client (instead of postman)
+Docker: Makes it easy to create, manage, and debug containerized applications.
+Remote Containers: Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
+Remote Development: An extension pack that lets you open any folder in a container, on a remote machine, or in WSL and take advantage of VS Code's full feature set.
+
+
