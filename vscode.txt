@@ -4,5 +4,13 @@ Thunder Client: RestAPI Client (instead of postman)
 Docker: Makes it easy to create, manage, and debug containerized applications.
 Remote Containers: Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.
 Remote Development: An extension pack that lets you open any folder in a container, on a remote machine, or in WSL and take advantage of VS Code's full feature set.
+Angular Snippets (Version 11): This extension for Visual Studio Code adds snippets for Angular for TypeScript and HTML.
+Markdown All in One: All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more).
+Prettier - Code formatter: Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+Path Intellisense: Visual Studio Code plugin that autocompletes filenames.
+GitLens: Supercharge the Git capabilities built into Visual Studio Code
+Import Cost: This extension will display inline in the editor the size of the imported package. The extension utilizes webpack with babili-webpack-plugin in order to detect the imported size
+
+
 
 
