@@ -9,6 +9,9 @@ sudo apt-fast update && sudo apt-fast upgrade -y
 
 sudo apt-fast install git terminator openjdk-11-jdk curl htop lm-sensors iproute2 inetutils-ping -y
 
+git config --global user.name "Theodore Chronis"
+git config --global user.email "t.n.chronis@gmail.com"
+
 sudo apt-fast install docker.io -y
 sudo systemctl enable --now docker
 #sudo systemctl enable docker.service
