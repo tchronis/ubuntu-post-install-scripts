@@ -11,6 +11,16 @@ Path Intellisense: Visual Studio Code plugin that autocompletes filenames.
 GitLens: Supercharge the Git capabilities built into Visual Studio Code
 Import Cost: This extension will display inline in the editor the size of the imported package. The extension utilizes webpack with babili-webpack-plugin in order to detect the imported size
 Java Extension Pack: Popular extensions for Java development and more.
+Auto Rename Tag: Automatically rename paired HTML/XML tag, same as Visual Studio IDE does.
+Angular Snippets (John Papa): This extension for Visual Studio Code adds snippets for Angular for TypeScript and HTML.
+Better Comments: The Better Comments extension will help you create more human-friendly comments in your code.
+With this extension, you will be able to categorise your annotations
+Git History: View git log, file history, compare branches or commits
+Code Spell Checker: Spelling checker for source code
+Git Graph: View a Git Graph of your repository, and perform Git actions from the graph.
+GitHub Pull Requests and Issues: Pull Request and Issue Provider for GitHub
+Live Share: Real-time collaborative development from the comfort of your favorite tools.
+CodeStream: GitHub, GitLab, Bitbucket PRs and Code Review
 
 
 
