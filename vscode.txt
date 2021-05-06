@@ -21,6 +21,12 @@ Git Graph: View a Git Graph of your repository, and perform Git actions from the
 GitHub Pull Requests and Issues: Pull Request and Issue Provider for GitHub
 Live Share: Real-time collaborative development from the comfort of your favorite tools.
 CodeStream: GitHub, GitLab, Bitbucket PRs and Code Review
+npm Intellisense: Visual Studio Code plugin that autocompletes npm modules in import statements
+npm: npm support for VS Code
+C/C++: C/C++ IntelliSense, debugging, and code browsing.
+PostgreSQL: PostgreSQL Management Tool
+
+
 
 
 
