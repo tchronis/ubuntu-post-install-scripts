@@ -26,8 +26,4 @@ npm: npm support for VS Code
 C/C++: C/C++ IntelliSense, debugging, and code browsing.
 PostgreSQL: PostgreSQL Management Tool
 GitLab Workflow: GitLab VSCode integration
-
-
-
-
-
+JHipster JDL: JHipster JDL VS Code extension
