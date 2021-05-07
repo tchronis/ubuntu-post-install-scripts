@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../com.apparentservices/gateway"
+		},
+		{
+			"path": "../com.apparentservices/uparent"
+		},
+		{
+			"path": "../com.apparentservices/maestro"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
