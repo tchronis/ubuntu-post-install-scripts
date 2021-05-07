@@ -25,7 +25,7 @@ npm Intellisense: Visual Studio Code plugin that autocompletes npm modules in im
 npm: npm support for VS Code
 C/C++: C/C++ IntelliSense, debugging, and code browsing.
 PostgreSQL: PostgreSQL Management Tool
-
+GitLab Workflow: GitLab VSCode integration
 
 
 
