@@ -7,7 +7,7 @@ sudo apt-get install apt-fast -y
 
 sudo apt-fast update && sudo apt-fast upgrade -y
 
-sudo apt-fast install git terminator openjdk-11-jdk curl htop lm-sensors iproute2 inetutils-ping -y
+sudo apt-fast install git terminator openjdk-11-jdk curl htop lm-sensors iproute2 inetutils-ping r-base-core -y
 
 git config --global user.name "Theodore Chronis"
 git config --global user.email "t.n.chronis@gmail.com"
