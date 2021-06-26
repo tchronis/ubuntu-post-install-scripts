@@ -1,19 +1,19 @@
 {
 	"folders": [
 		{
-			"path": "../com.apparentservices/gateway"
+			"path": "."
 		},
 		{
-			"path": "../com.apparentservices/uparent"
+			"path": "../com.apparentservices/gateway"
 		},
 		{
 			"path": "../com.apparentservices/maestro"
 		},
 		{
-			"path": "."
+			"path": "../com.apparentservices/uparent"
+		},
+		{
+			"path": "../com.apparentservices/rust-code"
 		}
-	],
-	"settings": {
-		"java.configuration.updateBuildConfiguration": "automatic"
-	}
+	]
 }

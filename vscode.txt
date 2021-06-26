@@ -27,3 +27,5 @@ C/C++: C/C++ IntelliSense, debugging, and code browsing.
 PostgreSQL: PostgreSQL Management Tool
 GitLab Workflow: GitLab VSCode integration
 JHipster JDL: JHipster JDL VS Code extension
+Git History Diff: View git history. View commit details. View diff of committed files. View git blame info. View stash details.
+Git Graph: View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
