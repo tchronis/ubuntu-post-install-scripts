@@ -21,15 +21,10 @@ sudo systemctl enable --now docker
 sudo groupadd docker
 sudo usermod -aG docker $USER
 
+#update to most current
 sudo rm -f /usr/local/bin/docker-compose
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
-
-#Watch for file changes in a large workspace (needed for VSCode to remote handle many files)
-sudo cat /proc/sys/fs/inotify/max_user_watches
-sudo echo "fs.inotify.max_user_watches=524288" >> /etc/sysctl.conf
-sudo sysctl -p
-
 
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 
@@ -44,3 +39,11 @@ npm install -g generator-jhipster
 npm install -g yo
 
 sudo apt-fast install rustc -y
+
+#https://www.microsoft.com/en-us/microsoft-teams/download-app#allDevicesSection
+
+#Watch for file changes in a large workspace (needed for VSCode to remote handle many files)
+#install on host (remote)
+#sudo cat /proc/sys/fs/inotify/max_user_watches
+#sudo echo "fs.inotify.max_user_watches=524288" >> /etc/sysctl.conf
+#sudo sysctl -p
