@@ -47,3 +47,14 @@ sudo apt-fast install rustc -y
 #sudo cat /proc/sys/fs/inotify/max_user_watches
 #sudo echo "fs.inotify.max_user_watches=524288" >> /etc/sysctl.conf
 #sudo sysctl -p
+
+#R and RStudio
+#https://linuxize.com/post/how-to-install-r-on-ubuntu-20-04/
+sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+
+sudo apt install r-base
+
