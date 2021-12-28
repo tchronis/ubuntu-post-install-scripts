@@ -11,7 +11,9 @@ sudo apt-fast install git terminator openjdk-11-jdk curl htop lm-sensors iproute
 sudo ln -s java-1.11.0-openjdk-amd64/ default-java
 
 sudo apt install nvidia-cuda-toolkit -y
-sudo apt install nvidia-settings
+sudo apt install nvidia-settings -y
+sudo apt install --reinstall nvidia-driver-470 -y
+sudo prime-select nvidia
 
 pip3 install torch torchvision torchaudio
 
