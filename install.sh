@@ -15,6 +15,8 @@ sudo apt install nvidia-settings -y
 sudo apt install --reinstall nvidia-driver-470 -y
 sudo prime-select nvidia
 
+sudo ubuntu-drivers autoinstall
+
 pip3 install torch torchvision torchaudio
 
 git config --global user.name "Theodore Chronis"
