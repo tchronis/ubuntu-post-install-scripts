@@ -10,6 +10,9 @@ sudo apt-fast update && sudo apt-fast upgrade -y
 sudo apt-fast install git terminator openjdk-11-jdk curl htop lm-sensors iproute2 inetutils-ping r-base-core gdebi-core groovy xclip sysbench python3-pip python-dev -y
 sudo ln -s java-1.11.0-openjdk-amd64/ default-java
 
+sudo apt install nvidia-cuda-toolkit -y
+
+
 git config --global user.name "Theodore Chronis"
 git config --global user.email "t.n.chronis@gmail.com"
 
