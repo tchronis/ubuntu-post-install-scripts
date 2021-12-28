@@ -12,6 +12,7 @@ sudo ln -s java-1.11.0-openjdk-amd64/ default-java
 
 sudo apt install nvidia-cuda-toolkit -y
 
+pip3 install torch torchvision torchaudio
 
 git config --global user.name "Theodore Chronis"
 git config --global user.email "t.n.chronis@gmail.com"
