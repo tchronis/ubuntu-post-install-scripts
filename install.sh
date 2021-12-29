@@ -14,10 +14,11 @@ sudo apt install nvidia-cuda-toolkit -y
 sudo apt install nvidia-settings -y
 sudo apt install --reinstall nvidia-driver-470 -y
 sudo prime-select nvidia
+#Disable UEFI secure boot in BIOS
 
 sudo ubuntu-drivers autoinstall
-
-pip3 install torch torchvision torchaudio
+#https://pytorch.org/get-started/locally/
+pip3 install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 
 git config --global user.name "Theodore Chronis"
 git config --global user.email "t.n.chronis@gmail.com"
