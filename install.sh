@@ -15,6 +15,8 @@ sudo apt install nvidia-settings -y
 sudo apt install --reinstall nvidia-driver-470 -y
 sudo prime-select nvidia
 #Disable UEFI secure boot in BIOS
+nvidia-smi
+nvidia-settings
 
 sudo ubuntu-drivers autoinstall
 #https://pytorch.org/get-started/locally/
