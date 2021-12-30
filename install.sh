@@ -14,6 +14,29 @@ sudo apt install nvidia-cuda-toolkit -y
 sudo apt install nvidia-settings -y
 sudo apt install --reinstall nvidia-driver-470 -y
 sudo prime-select nvidia
+
+#https://askubuntu.com/questions/353502/is-it-possible-to-boot-without-adding-pci-nomsi-or-acpi-off-to-the-grub-comm
+#Follow these steps precisely
+
+#Start your system as your traditional way :) Then open terminal(Ctrl+Alt+T) and execute these commands:
+
+#sudo cp /etc/default/grub /etc/default/grub.bak
+#sudo gedit /etc/default/grub
+#once grub is opened in gedit replace
+
+#GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+#by
+
+#GRUB_CMDLINE_LINUX_DEFAULT="quiet splash pci=realloc"
+#Save and close gedit window.
+
+#Update grub and restart your system:
+
+#sudo update-grub
+#sudo reboot
+#Your system should starts normally. Reply if something goes wrong..
+
+
 #Disable UEFI secure boot in BIOS
 nvidia-smi
 nvidia-settings
