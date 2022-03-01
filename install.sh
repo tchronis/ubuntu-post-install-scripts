@@ -76,6 +76,10 @@ npm install -g yo
 # https://www.rust-lang.org/tools/install
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # you can update your installation by running rustup update
+sudo apt-get -y install alsa-tools
+sudo apt-get -y install libudev-dev
+sudo apt-get -y install libasound2-dev
+# ----------
 
 
 #https://www.microsoft.com/en-us/microsoft-teams/download-app#allDevicesSection
