@@ -73,7 +73,10 @@ nvm install --lts #Install the latest LTS release of Node.js
 npm install -g generator-jhipster
 npm install -g yo
 
-sudo apt-fast install rustc -y
+# https://www.rust-lang.org/tools/install
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# you can update your installation by running rustup update
+
 
 #https://www.microsoft.com/en-us/microsoft-teams/download-app#allDevicesSection
 
