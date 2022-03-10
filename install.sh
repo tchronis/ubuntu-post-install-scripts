@@ -81,6 +81,10 @@ sudo apt-get -y install libudev-dev
 sudo apt-get -y install libasound2-dev
 # ----------
 
+# https://www.haskell.org/downloads/
+sudo add-apt-repository -y ppa:hvr/ghc
+sudo apt-get install -y cabal-install ghc
+sudo apt autoremove -y
 
 #https://www.microsoft.com/en-us/microsoft-teams/download-app#allDevicesSection
 
