@@ -86,6 +86,14 @@ sudo add-apt-repository -y ppa:hvr/ghc
 sudo apt-get install -y cabal-install ghc
 sudo apt autoremove -y
 
+# https://docs.haskellstack.org/en/stable/README/
+curl -sSL https://get.haskellstack.org/ | sh
+
+# https://www.yesodweb.com/page/quickstart
+stack install yesod-bin --install-ghc
+
+
+
 #https://www.microsoft.com/en-us/microsoft-teams/download-app#allDevicesSection
 
 #Watch for file changes in a large workspace (needed for VSCode to remote handle many files)
