@@ -8,6 +8,8 @@ sudo apt-get install apt-fast -y
 sudo apt-fast update && sudo apt-fast upgrade -y
 
 sudo apt-fast install git terminator zim openjdk-11-jdk cmake curl htop mlocate lm-sensors powertop iproute2 inetutils-ping r-base-core gdebi-core groovy xclip sysbench python3-pip python-dev net-tools -y
+sudo apt-get install aptitude -y
+
 sudo ln -s java-1.11.0-openjdk-amd64/ default-java
 
 sudo apt install nvidia-cuda-toolkit -y
